@@ -3,9 +3,9 @@ import { Search } from "lucide-react";
 
 const SearchBar = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center bg-white border border-gray-300 rounded-full shadow-md px-4 py-6 w-full max-w-[900px] mx-auto my-10 gap-4 md:gap-0">
+    <div className="bg-white border border-gray-300 rounded-xl shadow-md w-full max-w-[400px] mx-auto my-10 p-4 md:max-w-[900px] md:flex md:flex-row md:justify-between md:items-center md:gap-0 gap-4">
       
-      <div className="flex flex-col flex-1 px-2">
+      <div className="flex flex-col px-2">
         <label className="text-[10px] font-bold mb-1">Where</label>
         <input
           type="text"
@@ -16,7 +16,7 @@ const SearchBar = () => {
 
       <div className="hidden md:block h-6 border-l border-gray-300"></div>
 
-      <div className="flex flex-col flex-1 px-2">
+      <div className="flex flex-col px-2">
         <label className="text-[10px] font-bold mb-1">When</label>
         <input
           type="text"
@@ -27,7 +27,7 @@ const SearchBar = () => {
 
       <div className="hidden md:block h-6 border-l border-gray-300"></div>
 
-      <div className="flex flex-col flex-1 px-2 relative">
+      <div className="flex flex-col px-2 relative">
         <label className="text-[10px] font-bold mb-1">Who</label>
         <input
           type="text"
